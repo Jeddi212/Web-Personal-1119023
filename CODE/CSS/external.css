@@ -1,0 +1,90 @@
+@font-face{
+	font-family:HH;
+	src: url(../../MEDIA/font/HAMMERHEAD.ttf);
+}
+@font-face{
+	font-family:QR;
+	src: url(../../MEDIA/font/QuirkyRobot.ttf);
+}
+html {
+  scroll-behavior: smooth;
+}
+*{
+	-webkit-transition: 0.7s ease-in-out;
+	-o-transition: 0.7s ease-in-out;
+	-moz-transition: 0.7s ease-in-out;
+	-ms-transition: 0.7s ease-in-out;
+	transition: 0.7s ease-in-out;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: #222;
+	color: #fff;
+	justify-content: center;
+	align-items: center;
+	font-family: consolas;
+}
+header{
+	width: 100%;
+	background-color: #fff;
+	color: #ee0057;
+	font-family: courier;
+	font-size: 3.5vw;
+	font-variant: small-caps;
+	text-transform:capitalize;
+	text-align: center;
+}
+h1{
+	font-family: courier;
+	font-variant: small-caps;
+	text-transform:capitalize;
+	color: #ee0057;
+}
+footer{
+	width: 100%;
+	bottom: -10px;
+	position: fixed;
+	color: #fff;
+	background-color: #000;
+	border-top-style: dashed;
+	border-width: 0.04vw;
+	text-align: center;
+	font-family: courier;
+	font-size: 1vw;
+	font-weight: bolder;
+}
+nav{
+	margin-top: -3%;
+	text-align: center;
+}
+a{
+	padding: 1%;
+	color: #eee;
+	font-family: HH;
+	font-size: 1.5vw;
+	text-decoration:none;
+}
+nav a{
+	border: 1px solid #000;
+}
+nav a:hover{
+	background-color: #ff0057;
+}
+a:hover{
+	transform: rotate(-1deg);
+}
+a:active{
+	color: #ff0057;
+}
+h1:hover, figcaption:hover, legend:hover{
+	transform: rotate(-3deg);
+}
+figcaption{
+	font-family: QR;
+	font-size: 3vw;
+}
+#top, #bottom{
+	display: block;
+	text-align: right;
+}

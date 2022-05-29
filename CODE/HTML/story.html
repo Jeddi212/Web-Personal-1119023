@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<meta author="name" content="Jedediah Fanuel">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Story</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/external.css">
+	<style>
+		body{
+			text-align: center;
+		}
+		header{
+			margin-top: -4.75%;
+		}
+		table{
+			margin-top: -3%;
+			margin-bottom: 2%;
+		}
+		table, th, td{
+			border: 2px solid green;
+		}
+		td:ntch{
+			background-color: #f62681;
+		}
+		table:hover, th:hover, td:hover{
+			border-radius: 10px;
+			border-color: #abacad;
+		}
+		ul{
+			margin-left: -3%;
+			list-style-type: none;
+		}
+		img{
+			margin-top: 5%;
+		}
+		#pas img:hover{
+			box-shadow: 10px 10px 5px #fff;
+			margin-left: -2%;
+		}
+		.siap{
+			padding: 5%;
+			text-align: justify;
+			text-shadow: 4px 4px 4px #5ac789;
+		}
+		#music{
+			color: #000;
+			line-height: 120%;
+			font-weight: bolder;
+		}
+		#container{
+			display: flex;
+			flex-direction: column;
+			position: relative;
+		}
+		.block{
+			background-size: cover;
+			height: 50vw;
+			position: sticky;
+			top: 0;
+		}
+		.dua{
+			background-size: cover;
+			height: 35vw;
+		}
+		.block:nth-child(1){
+			background-image: url(../../MEDIA/gambar/story/music.jpg);
+			text-align: center;
+			padding: 0.5%;
+		}
+		.block:nth-child(2){
+			background-image: url(../../MEDIA/gambar/story/game.jpg);
+			text-align: center;
+			padding: 0.5%;
+		}
+		.block:nth-child(3){
+			background-image: url(../../MEDIA/gambar/story/draw.jpg);
+			text-align: right;
+			padding: 10%;
+		}
+		.block:nth-child(4){
+			background-image: url(../../MEDIA/gambar/story/eat.jpg);
+			background-position: bottom;
+			text-align: left;
+			padding: 10%;
+		}
+		.block h1{
+			position: relative;
+			font-size: 5vw;
+			font-weight: bolder;
+		}
+	</style>
+	
+</head>
+
+<body>
+	
+	<header>
+		<h1>This is my story</h1>
+	</header>
+
+	<nav>
+		<a href="index.html">HOME</a>
+		<a href="#">Story</a>			
+		<a href="bio.html">Contact</a>
+		<a href="gallery.html">Gallery</a>
+	</nav>
+	
+	<a href="#bottom" id="top">Go to Bottom</a>
+
+	<a id="pas" target="blank" href="pass.html">
+		<img src="../../MEDIA/gambar/Pas.jpg" alt="Pas Photo, Link Gallery" style="width:120px">
+	</a>
+	
+	<p class="siap">
+		&nbsp;&nbsp;&nbsp;&nbsp;Saya Jedediah Fanuel, biasa dipanggil Jeddi, atau Jed, atau Je, atau Jedai, atau Jedong, atau Jedut, atau Jedot, dll. Saya lahir di kota Bandung pada tanggal 28 April 2001. Saya memiliki seorang kaka perempuan bernama Jeconiah Fanuel. Ia sekarang berumur 19 tahun setahun lebih tua dari saya.
+		<br><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;Kini saya menjalani studi di Institut Teknologi Harapan Bangsa. Di sini rasanya sangat seru dan bersahabat. Seru dan tidak terlalu serius dan berkompetisi, lebih kepada arah kolaborasi. Walaupun di sini kurang aktivitas dan peminatnya dalam menjalani UKM tetapi saat pembelajaran, para mahasiswa belajar penuh dengan semangat dan sangat antusias.
+		<br><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;Saya memiliki cita-cita  menjadi seorang programmer. Meskipun begitu, dulu saya bercita-cita menjadi seorang pemadam kebakaran XD. Tetapi saya rasa membuat program tidak semudah dan juga tidak sesulit yang saya pikirkan, initinya susah-susah gampang. Tapi saya benci matematika sih. Entah kenapa kalau suatu pelajaran saya tidak tahu untuk apa manfaatnya bagi saya, saya jadi sulit untuk menyerapnya ke dalam otak saya. Entahlah apa manfaat dari Kalkulus bagi kehidupan sehari-hari saya. Mungkin biar ada kerjaan di kampus.
+	</p>
+
+<br>
+
+	<table cellspacing="5" cellpadding="5" align="center">
+		<caption style="font-size:40px"><b>Background Pendidikan</b></caption>
+		<thead>
+			<tr>
+				<th>Masa</th>
+				<th>Lokasi</th>
+				<th>Periode</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>SD</td>
+				<td>SDK Pelita Bangsa</td>
+				<td>2007/2008 - 2012/2013</td>
+			</tr>
+			<tr>
+				<td>SMP</td>
+				<td>SMPK Pelita Bangsa</td>
+				<td>2013/2014 - 2015/2016</td>
+			</tr>
+			<tr>
+				<td>SMA</td>
+				<td>SMAK Pelita Bangsa</td>
+				<td>2016/2017 - 2018/2019</td>
+				</tr>
+			<tr>
+				<td>PT</td>
+				<td>Institut Teknologi Harapan Bangsa</td>
+				<td>2019/2020 - unknown</td>
+			</tr>
+		</tbody>
+	</table>
+
+<br>
+	
+	<h2 style="font-size: 3.5vw;">
+		My Hobbies
+	</h2>
+
+	<div id="container">
+		
+
+		<div class="block">
+			<h1>LISTENING MUSIC</h1>
+			<p id="music">
+				Check one of my Favourite
+			</p>
+			<audio controls>
+				<source src="../../MEDIA/audio/music1.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+
+		<div class="block">
+			<h1>GAMING</h1>
+		</div>
+
+		<div class="block dua">
+			<h1>DRAWING</h1>
+		</div>
+
+		<div class="block dua">
+			<h1 style="position: relative; top: 80%;">EATING</h1>
+			<a style="position: relative; top: 80%; color: #000;" href="#top" id="bottom">Go to Top</a>
+		</div>
+
+	</div>
+
+	<footer>
+		<p>
+			C&copy;pyright Karya Anak Bangsa
+		</p>
+	</footer>
+</body>
+
+</html>
